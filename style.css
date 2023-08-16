@@ -1,19 +1,17 @@
 * {
-    margin: 20px;
-    padding: 0;
+  margin: 20px;
+  padding: 0;
 }
 
 .content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
 }
 
 .product {
-    border: 1px solid #000;
-    height: 100px;
-    width: 100px;
-
-    grid-column: span 5;
-}
+  border: 1px solid rgb(228, 60, 88);
+  height: 100px;
+  width: 100px;
+  grid-column: span 2;
+}/*# sourceMappingURL=style.css.map */
