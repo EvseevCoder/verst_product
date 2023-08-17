@@ -18,3 +18,10 @@ $fontRed: rgb(228, 60, 88);
 
     grid-column: span 2;
 }
+
+@media (max-width: 1000px) {
+    .product {
+        height: 200px;
+        // grid-column: none;
+    }
+}
