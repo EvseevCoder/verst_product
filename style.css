@@ -1,23 +1,44 @@
 * {
-  margin: 20px;
+  margin: 0px;
   padding: 0;
+}
+
+html {
+  font-size: 30px;
+}
+
+html p {
+  font-size: 0.5rem;
+}
+
+.sait {
+  font-size: 50px;
 }
 
 .content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  gap: 20px;
 }
 
 .product {
   border: 1px solid rgb(228, 60, 88);
   height: 100px;
-  width: 100px;
-  grid-column: span 2;
+  width: 280px;
+  padding: 10px;
 }
 
 @media (max-width: 1000px) {
+  html {
+    font-size: 20px;
+  }
   .product {
+    width: 200px;
     height: 200px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,27 +1,57 @@
 $fontRed: rgb(228, 60, 88);
 * {
-    margin: 20px;
+    margin: 0px;
     padding: 0;
+}
+
+// Объявлние шрифтов для сайта + рем значение
+html {
+    font-size: 30px;
+}
+
+html p {
+    font-size: 0.5rem;
+}
+
+
+.sait {
+    font-size: 50px;
 }
 
 .content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
     justify-items: center;
+
+    gap: 20px;
 }
 
 .product {
     border: 1px solid $fontRed;
     height: 100px;
-    width: 100px;
+    width: 280px;
+    padding: 10px;
 
-    grid-column: span 2;
+    // grid-column: span 2;
 }
 
 @media (max-width: 1000px) {
+
+    // Изменение базового шрифта
+    html {
+        font-size: 20px;
+    }
+
     .product {
+        width: 200px;
         height: 200px;
         // grid-column: none;
+
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
