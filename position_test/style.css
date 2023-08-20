@@ -5,9 +5,11 @@
 
 .content1 {
     margin-top: 50px;
-    padding-bottom: 250px;
+    /* padding-bottom: 250px; */
 
     position: relative;
+
+    height: 230px;
 }
 
 .element {
@@ -59,6 +61,7 @@
 
 .content2 {
     position: relative;
+    margin-top: 50px;
 }
 
 .elem_4 {
