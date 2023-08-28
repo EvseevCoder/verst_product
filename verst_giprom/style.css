@@ -423,9 +423,26 @@ body {
 }
 
 
+.sec_3 {
+    position: relative;
+}
+
+.fon_text2 {
+    position: absolute;
+    color: #F2F2F2;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: RF Dewi Expanded;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144px; /* 100% */
+    letter-spacing: -4.32px;
+
+    right: 169px;
 
 
-
+    white-space: nowrap;
+}
 
 
 
