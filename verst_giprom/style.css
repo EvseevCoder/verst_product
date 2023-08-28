@@ -95,7 +95,7 @@ body {
     margin-bottom: 103px;
 } 
 
-.d1 h1 {
+.d1 .obsluzh h1 {
     color: #0D0D0D;
     width: 497px;
     /* H1 */
@@ -347,7 +347,7 @@ body {
     width: 55vw;
     position: relative;
 
-    height: 600px;
+    height: auto;
 }
 
 .sec_2_img1 {
@@ -373,10 +373,10 @@ body {
 }
 
 .sec_2_img3 img{
-    position: relative;
+    position: absolute;
     width: 23.3vw;
 
-    top: 349px;
+    bottom: 0px;
     left: 7.5vw;
 
     z-index: 2;
@@ -447,5 +447,27 @@ body {
 
     .d3 .arrow1 {
         left: 103px;
+    }
+
+
+
+    .sec_2_img2 img{
+        position: absolute;
+        width: 35vw;
+    
+        top: 260px;
+        left: 15vw;
+    
+        z-index: 1;
+    }
+
+    .sec_2_img3 img{
+        position: absolute;
+        width: 23.3vw;
+    
+        top: 400px;
+        left: 7.5vw;
+    
+        z-index: 2;
     }
 }

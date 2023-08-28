@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+
+    width: 960px;
+    height: auto;
+
+    background-color: antiquewhite;
+
+    margin: 50px auto;
+    align-items: center;
+}
+
+.item {
+    width: 300px;
+    height: 500px;
+
+    border: 1px solid #b66c22;
+}
+
+.item_active {
+    height: 600px;
+}
