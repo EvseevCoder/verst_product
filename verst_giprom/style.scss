@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Импорт шрифтов */
+/* Dewi Expanded Thin*/
+@font-face {
+    font-family: 'RF Dewi Expanded';
+    src: url('./fonts/RF Dewi Expanded Thin'), url('./fonts/RF-Dewi-Expanded-Thin'),
+        url('./fonts/RFDewiExpanded-Thin.woff2') format('woff2'),
+        url('./fonts/RFDewiExpanded-Thin.woff') format('woff'),
+        url('./fonts/RFDewiExpanded-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+/* Dewi Expanded Light*/
+@font-face {
+    font-family: 'RF Dewi Expanded';
+    src: url('fonts/RF Dewi Expanded Light'), url('fonts/RF-Dewi-Expanded-Light'),
+        url('fonts/RFDewiExpanded-Light.woff2') format('woff2'),
+        url('fonts/RFDewiExpanded-Light.woff') format('woff'),
+        url('fonts/RFDewiExpanded-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* RF Dewi Expanded*/
+@font-face {
+    font-family: 'RF Dewi Expanded';
+    src: url('fonts/'), url('fonts/RF-Dewi-Expanded-Regular'),
+        url('fonts/RFDewiExpanded-Regular.woff2') format('woff2'),
+        url('fonts/RFDewiExpanded-Regular.woff') format('woff'),
+        url('fonts/RFDewiExpanded-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+/* RF Dewi Expanded Semi Bold */
+@font-face {
+    font-family: 'RF Dewi Expanded';
+    src: url('fonts/RF Dewi Extended Semibold'), url('fonts/RF-Dewi-Extended-Semibold'),
+        url('fonts/RFDewiExtended-Semibold.woff2') format('woff2'),
+        url('fonts/RFDewiExtended-Semibold.woff') format('woff'),
+        url('fonts/RFDewiExtended-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+/* разбиттие: всего: 1440px 2)470px(32.63888) 3)345px(23.95833)*/
+body {
+    overflow-x: hidden;
+}
+
+// Базовые шрифты для сайта
+h1 {
+    color: #0D0D0D;
+    /* H1 */
+    font-family: RF Dewi Expanded;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 120% */
+    font-variant: small-caps;
+    letter-spacing: -1.2px;
+}
+
+h2 {
+    color: #FFF;
+    font-family: RF Dewi Expanded;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px; /* 116.667% */
+    letter-spacing: -0.9px;
+}
+
+p {
+    color: #202020;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.27px;
+}
+
+.d1 {
+    &__name1 {
+
+    }
+
+    &__name2 {
+        
+    }
+
+    p {
+        
+    }
+
+    &__title {
+        p {
+            color: aqua;
+        }
+    }
+}
