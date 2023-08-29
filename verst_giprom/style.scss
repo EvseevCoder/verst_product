@@ -84,22 +84,125 @@ p {
     letter-spacing: 0.27px;
 }
 
-.d1 {
-    &__name1 {
+.sec_1 {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 28vw 23.95833vw;
+    grid-template-rows: 354px auto;
+}
 
+.d1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+    padding-left: 96px;
+    padding-top: 30px;
+
+    &__name1 {
+        color: #4C5C6B;
+
+        font-family: RF Dewi Expanded;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -0.9px;
     }
 
     &__name2 {
-        
+        color: #AFAFAF;
+
+        font-family: RF Dewi Expanded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: auto;
     }
 
     p {
-        
+
     }
 
     &__title {
+        padding-left: 7px;
+
+        h1 {
+            position: absolute;
+            bottom: 184px;
+
+            width: 440px;
+        }
+
         p {
-            color: aqua;
+            font-size: 14px;
+            position: absolute;
+            bottom: 103px;
+            letter-spacing: -0.28px;
+            line-height: 18px;
+
+            width: 360px;
         }
     }
+}
+
+.d2 {
+    position: relative;
+    background-image: url('./images/sec-1-snamilegko.png');
+    background-size: cover;
+
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+    height: 100vh;
+
+    padding-left: 46px;
+
+    &__time {
+        display: flex;
+        gap: 17px;
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        width: 301px;
+        padding-bottom: 18px;
+    }
+
+    p {
+        color: #FFF;
+        font-family: RF Dewi Expanded;
+    }
+
+    &__large {
+        font-weight: 600;
+        font-size: 16px;
+
+        margin-top: 51px;
+    }
+
+    &__little {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.circle {
+    position: absolute;
+    bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .circle1 {
+        position: absolute;
+        width: 75px;
+    }
+
+    .arrow {
+        width: 50px;
+
+        z-index: 2;
+    }
+
 }
