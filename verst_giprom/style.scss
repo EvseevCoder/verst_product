@@ -74,13 +74,22 @@ h2 {
     letter-spacing: -0.9px;
 }
 
+h3 {
+    color: #FFFBFB;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: RF Dewi Expanded;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 600;
+}
+
 p {
     color: #202020;
     font-variant-numeric: lining-nums proportional-nums;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
     letter-spacing: 0.27px;
 }
 
@@ -166,6 +175,7 @@ p {
     h2 {
         width: 301px;
         padding-bottom: 18px;
+        margin-top: 60px;
     }
 
     p {
@@ -188,11 +198,25 @@ p {
 
 .circle {
     position: absolute;
+
+    width: 75px;
     bottom: 30px;
+    left: 46px;
+
+    width: 75px;
+    height: 75px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &__d3 {
+        left: 37px;
+    }
+
+    &__d5 {
+        left: 37px;
+    }
 
     .circle1 {
         position: absolute;
@@ -205,4 +229,39 @@ p {
         z-index: 2;
     }
 
+}
+
+.d3 {
+    position: relative;
+    background: #4C5C6B;
+
+    padding-top: 60px;
+    padding-left: 37px;
+
+    h2 {
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-family: Raleway;
+        color: #FFF;
+    }
+}
+
+.d5 {
+    position: relative;
+    background-image: url("./images/sec-1-bolshoi.png");
+    background-size: cover;
+
+    padding: 37px 0 0 36px;
+}
+
+.sec_2 {
+    width: 100vw;
+    background-color: rgba(237, 237, 237, 0.72);
+
+    &__fon_text {
+        position: relative;
+        left: -40px;
+    }
 }
