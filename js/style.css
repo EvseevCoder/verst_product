@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+}
+
+h2 {
+    font-size: calc(var(--index) * 2);
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: calc(var(--index) * 10);
+    height: calc(var(--index) * 15);
+
+    margin-top: calc(var(--index) * 5);
+    padding: calc(var(--index) * 1) calc(var(--index) * 3);
+
+    border: 1px solid #000;
+}
