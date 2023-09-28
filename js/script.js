@@ -1,17 +1,19 @@
-// Проверка факториала
+let MyButton = document.getElementById('button');
 
-function fuck (n) {
-    if (n === 1) {
-        return 1;
+let inp = document.getElementById('input')
+let del = document.getElementById('del')
+
+MyButton.onclick = function() {
+
+    if (MyButton.textContent == 'Учебная кнопка') {
+        MyButton.textContent = "Уже другой текст"
+    } else {
+        MyButton.textContent = 'Учебная кнопка'
     }
-
-    return fuck(n - 1) * n;
+    inp.value = "Текст 123"
 }
 
-
-let n = 15;
-console.log(`${n} - ${typeof n}`);
-
-
-n = String(n)
-console.log(`${n} - ${typeof n}`);
+del.onclick = function () {
+    inp.value = '';
+    
+}
