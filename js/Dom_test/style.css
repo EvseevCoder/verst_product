@@ -1,3 +1,7 @@
-.show-position {
+.show-block {
+    display: block;
+}
+
+.hide-block {
     display: none;
 }
