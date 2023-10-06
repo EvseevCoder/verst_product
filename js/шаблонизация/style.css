@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.block {
+    width: 300px;
+    height: auto;
+
+    border: 1px solid #000;
+}
+
+.block img {
+    max-width: 100%;
+}
+
+.text {
+    padding: 50px 50px;
+}
