@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+.content {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 
 .block {
     width: 300px;

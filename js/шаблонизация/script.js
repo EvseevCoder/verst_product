@@ -22,9 +22,13 @@ let TakeObejct = function (obj) {
     `
 }
 
-console.log(content);
-console.log(content2);
+let button1 = document.querySelector('.add-button');
 
+button1.onclick = function () {
+    content.innerHTML += TakeObejct(photo[0])
+    content.innerHTML += TakeObejct(photo[0])
+    content.innerHTML += TakeObejct(photo[0])
 
+    console.log(123);
+}
 
-content.innerHTML = TakeObejct(photo[0])
