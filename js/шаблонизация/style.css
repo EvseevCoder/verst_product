@@ -22,3 +22,7 @@
 .text {
     padding: 50px 50px;
 }
+
+.dog img {
+    height: 300px;
+}
