@@ -1,19 +1,26 @@
-let MyButton = document.getElementById('button');
+let buttons = document.querySelectorAll('.button')
 
-let inp = document.getElementById('input')
-let del = document.getElementById('del')
+for (const button of buttons) {
+    let input = button.previousElementSibling
 
-MyButton.onclick = function() {
+    // console.log(getComputedStyle(button))
 
-    if (MyButton.textContent == 'Учебная кнопка') {
-        MyButton.textContent = "Уже другой текст"
-    } else {
-        MyButton.textContent = 'Учебная кнопка'
+    button.onclick = function () {
+        input.value = '';
     }
-    inp.value = "Текст 123"
+    
 }
 
-del.onclick = function () {
-    inp.value = '';
+// console.log(getComputedStyle(button))
+
+
+
+for (const button of buttons) {
+    button.onmouseenter = function () {
+        console.log('Мышь наведена на кнопку');
+    }
     
+    button.onmouseleave = function () {
+        console.log('Мышь уже не наведена на кнопку');
+    }
 }
